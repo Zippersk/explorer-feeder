@@ -38,7 +38,9 @@
     "tslint-config-airbnb": "^5.11.1"
   },
   "dependencies": {
+    "explorer-core": "^0.1.12",
     "express": "^4.16.4",
+    "orbit-db-identity-provider": "^0.3.0",
     "ts-node": "^8.0.3",
     "tsconfig-paths": "^3.8.0",
     "typescript": "^3.4.3"

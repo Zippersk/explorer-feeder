@@ -1,12 +1,21 @@
 {
-  "defaultSeverity": "error",
-  "extends": [
-    "tslint-config-airbnb"
-  ],
-  "jsRules": {},
-  "rules": {
-    "import-name": false,
-    "no-duplicate-variable": true
-  },
-  "rulesDirectory": []
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint-config-airbnb"
+    ],
+    "jsRules": {},
+    "rules": {
+        "ter-indent": 4,
+        "import-name": false,
+        "no-duplicate-variable": true,
+        "quotemark": [true, "double"],
+        "brace-style": [
+            true,
+            "allman",
+            {
+                "allowSingleLine": true
+            }
+        ]
+    },
+    "rulesDirectory": []
 }
